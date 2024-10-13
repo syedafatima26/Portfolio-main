@@ -1,0 +1,45 @@
+/* Navbar */
+nav {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(to right, #6c63ff, #fc267f);
+    color: #fff;
+    top: 0;
+    left: 0;
+    width: 98%;
+    height: 40px; /* Adjust the height as needed */
+    z-index: 9999; /* Ensure the navbar stays on top of other elements */
+  }
+  
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px; /* Adjust the width as needed */
+    height: auto;
+    margin-right: 10px; /* Add some spacing between the logo and text */
+}
+
+.website-name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-links a {
+    margin-right: 10px;
+    color: #fff;
+}
+.nav-links a:hover {
+    background: linear-gradient(to right, #8504bd,#b1024b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  

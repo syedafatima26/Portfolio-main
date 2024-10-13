@@ -1,0 +1,56 @@
+.certifications-container {
+    width: 100%;
+    padding: 100px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .certifications-heading {
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .certifications-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .certification {
+    margin-bottom: 10px;
+  }
+  
+  .certification-title {
+    color: white;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .certification-title.open {
+    color: #ffcc00;
+  }
+  
+  .certification-link {
+    display: block;
+    color: white;
+    margin-top: 10px;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .certification-link:hover {
+    color: #ffcc00;
+  }
+  
+  .certificate-image {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+  }
+  
+  .certificate-image img {
+    width: 200px;
+    height: 400px;
+  }
+  
